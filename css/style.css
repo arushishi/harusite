@@ -1,0 +1,37 @@
+﻿@charset "UTF-8";
+/* encode_hint:ぶべら */
+body{
+font-size: 0.71em;
+line-height:150%;
+font-family : "Verdana", "ヒラギノ角ゴ Pro W3", "ＭＳ ゴシック", "Osaka‐等幅";
+color : #660000;
+margin-top: 0px;
+margin-left: 30px;
+margin-bottom: 0px;
+padding: 0px;
+background-repead:repeat-y;
+background-position:right;
+}
+
+a:link {
+color: #660000;
+text-decoration : none;	
+}
+
+a:visited 
+{
+color: #660000;
+text-decoration : none;	
+}
+
+a:active 
+{
+color: #660000;
+text-decoration : none;
+	}
+
+a:hover 
+{
+color: #CC9999;
+text-decoration: none;
+}
