@@ -12,11 +12,11 @@ $sql .= " ORDER BY A.`Id` limit " . $_POST['index'] . ", 1;";
 $rec = $dbcon->getrec($sql);
 //結果行が取得できたらliタグに埋め込んで表示
 if ($rec === false) {
-	$DBData[0] = array('Id'=>'777','Explain'=>'waoooooooooo');
+	return 1;
 } else {
 	for ($i = 0; $row = @mysql_fetch_assoc($rec); $i++){  
 	  $DBData[$i] = $row;
 	}
 }
 ?>
-<li><a href="#/<?=$DBData[0]['Id']?>"><?=$DBData[0]['Explain']?></a></li>
+								<a href="../public/image/haru1.jpg" data-lity><img id="my_img<?php echo $_POST['index']; ?>" src="../public/image/haru1.jpg" alt="" style="width:10%;display: inline-block;" /></a>

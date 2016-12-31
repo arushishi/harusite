@@ -1,3 +1,6 @@
 templates_c/
+nbproject/
+public/image/*
 env.ini
 *.log
+php/config.ini

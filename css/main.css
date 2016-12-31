@@ -9,18 +9,44 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 100%;
+	background: #ee9ca7; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ee9ca7 , #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ee9ca7 , #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.my_text {font-weight:100;}
+.noto300 {font-weight:300;}
+.noto400 {font-weight:400;}
+.noto500 {font-weight:500;}
+.noto700 {font-weight:700;}
+.noto900 {font-weight:900;}
 
 html {
     font-size: 1em;
     line-height: 1.4;
+}
+
+.my_movie {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.my_movie iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.my_image >a >img{
+  width: 15%;
+  display: inline-block;
 }
 
 /*
@@ -98,10 +124,10 @@ textarea {
    ========================================================================== */
 h1, h2, h3, h4, h5, h6, .h1,.h2, .h3, .h4, .h5, .h6 {
     font-weight: 400;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 body, h1, h2, h3, h4, h5, h6, .button, input[type="button"], input[type="submit"], input[type="text"], input[type="password"], input[type="email"], textarea, select {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size:13px;
     line-height:20px;
     color:#000;
@@ -114,7 +140,7 @@ body, h1, h2, h3, h4, h5, h6, .button, input[type="button"], input[type="submit"
 /*---------------        Common      ---------------*/
 
 html, body, h1, h2, h3, h4, h5, h6, p, div, a{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 .clear-top{
 	height: 60px;
@@ -163,7 +189,7 @@ img{
 }
 
 #header .navbar-header a{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 400;
 	font-size: 2.2em;
 	color: #fff;
@@ -178,7 +204,7 @@ img{
 }
 #header .navbar-nav a,
 #header .navbar-nav .active a{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 	color: #ffffff;
@@ -320,7 +346,7 @@ img{
 
 }
 #header .navbar-header a {
-	font-family: "Pacifico", Sans-serif;
+	font-family: "Noto Sans JP", Sans-serif;
 	font-size: 2.2em;
 	color: white;
 	line-height: 60px; 
@@ -368,14 +394,13 @@ img{
     -webkit-transition: color .2s;
     -moz-transition: color .2s;
     -ms-transition: color .2s;
-    -0-transition: color .2s;
     transition: color .2s;
     
 }
 #slider .carousel-control:hover,
 #slider .corousel-control:focus{
 	font-size: 1.5em;
-	color: color: rgba(255,255,255,1);
+	color: rgba(255,255,255,1);
 	font-weight: bold;
 }
 #slider .carousel-indicators li{
@@ -396,13 +421,13 @@ img{
 #slider .content_slide h2{
 	color: #ffffff;
 	font-size: 45px;
-	font-family: Arial, sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	vertical-align: middle;
 }
 #slider .content_slide p{
 	color: #fff;
 	font-size: 24px;
-	font-family: Arial, sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	line-height: 48px;
 	vertical-align: middle;
 }
@@ -451,13 +476,13 @@ img{
 }
 #about .web_content h1{
 	color: #444e5d;
-    font-family: Arial,sans-serif;
+    font-family: 'Noto Sans JP',sans-serif;
     font-size: 36px;
 }
 #about .web_content h4{
 	color: #fabe00;
 	font-size: 26px;
-	font-family: "Roboto" sans-serif;
+	font-family: "Noto Sans JP" sans-serif;
 }
 #about .web_content p{
 	color: #4d5866;
@@ -501,12 +526,12 @@ img{
 #promotion .promotion_content h1{
 	color: #444e5d;
 	font-size: 36px;
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Noto Sans JP' sans-serif;
 }
 #promotion .promotion_content h4{
 	color: #1fab5a;
 	font-size: 26px;
-	font-family: "Roboto" sans-serif;
+	font-family: "Noto Sans JP" sans-serif;
 }
 #promotion .promotion_content p{
 	color: #4d5866;
@@ -726,7 +751,7 @@ img{
 #testimonial h1{
 	font-weight: bold;
 	font-size: 145px;
-	font-family: "Roboto", sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	color: #66837e;
 	margin-bottom: -45px;
 }
@@ -766,7 +791,7 @@ img{
 	color: #6a6565;
 	font-size: 22px;
 	font-style: normal;
-	font-family: "Roboto", sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 }
 /* end testimonial  */
 
@@ -875,20 +900,20 @@ img{
 #recruitment .modern h2{
 	color: #444e5d;
 	font-size: 36px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	font-style: normal;
 }
 #recruitment .modern h1{
 	color: #323a45;
 	font-size: 36px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	font-style: normal;
 	margin-bottom: 56px;
 }	
 #recruitment .modern p{
 	color: #4c5662;
 	font-size: 26px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	line-height: 34px;
 }
 #recruitment .modern hr{
@@ -918,7 +943,7 @@ img{
 #recruitment .list_item ul li a{
 	color: #4c5662;
 	font-size: 24px;
-	font-family: 'Roboto',sans-serif;
+	font-family: 'Noto Sans JP',sans-serif;
 	text-decoration: none;
 	letter-spacing: 0px;
 	line-height: 47px;
@@ -976,13 +1001,12 @@ img{
     -webkit-transition: color .2s;
     -moz-transition: color .2s;
     -ms-transition: color .2s;
-    -0-transition: color .2s;
     transition: color .2s;
 }
 #contact .content{
 	margin-top: 50px;
 	text-align: center;
-	font-family: 'Roboto',sans-serif;
+	font-family: 'Noto Sans JP',sans-serif;
 }
 #contact .content a{
 	font-size: 80px;
@@ -1009,7 +1033,7 @@ img{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-family: 'Roboto',sans-serif;
+	font-family: 'Noto Sans JP',sans-serif;
 }
 #footer-top h1{
 	color: #ffffff;
@@ -1024,7 +1048,7 @@ img{
 }
 #footer-top a{
 	color: #ffffff;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Noto Sans JP',sans-serif;
     font-size: 24px;
     font-weight: bold;
     padding: 15px 50px;

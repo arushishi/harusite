@@ -10,15 +10,16 @@
 
         <title>ハル成長記</title>
 		<link rel="shortcut icon" href="../img/favicon.ico">
-		<link rel="apple-touch-icon" href="http://www.team-sake.com/">
+		<link rel="apple-touch-icon" href="http://www.wp.team-sake.com/haruko/apple-touch-icon.png">
         <link rel="stylesheet" href="../css/main.css">
 		<link rel="stylesheet" href="../css/responsive.css">
-        <link rel="stylesheet" href="../css/font-awesome.min.css">
 		<link rel="stylesheet" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" href="../css/animations.min.css">
 		<link rel="stylesheet" href="../css/lightbox.css" />
         <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="../js/lity.min.js"></script>
+        <link rel="stylesheet" href="../css/lity.min.css">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 			<!--[if lt IE 9]>
 				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>

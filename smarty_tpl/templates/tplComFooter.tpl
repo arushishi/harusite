@@ -13,7 +13,7 @@
 							<div class="col-xs-12 col-sm-6 col-md-6">
 							<div class="float_right">
 								<address>
-									Copyright &copy;MEGALOGIC INC. All Rights Reserved.
+									Copyright &copy;E&R. All Rights Reserved.
 								</address>
 							</div>
 								
